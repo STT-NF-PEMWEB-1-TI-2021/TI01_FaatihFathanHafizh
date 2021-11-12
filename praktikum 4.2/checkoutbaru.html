@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.atas{
+    align-items: center;
+    display: flex;
+    width: 570px;
+    background-color: grey;
+}
+.dalam{
+    width: 570px;
+    border-top: none;
+    height: 400px;
+}
+.dalam .gabungan{
+    display: flex;
+    align-items: center;
+}
+.bagian2{
+    border-top: 2px solid lightgrey;
+    width: 280px;
+    border-bottom: 2px solid lightgrey;
+}
+.info{
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+.info .kanan{
+    font-size: 13px;
+}
+.info .bagian-kiri{
+    margin-left: 20px;
+}
+.info .bagian-kiri .kiri{
+    font-size: 13px;
+}
+.metode{
+    display: flex;
+    align-items: center;
+}
+.metode .metode-1{
+    font-size: 13px;
+    margin-right: 20px;
+}
+.metode .metode2{
+    font-size: 13px;
+}
+.bawah{
+  border-top: none;
+  width: 570px;
+}
+.bawah-kanan{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 140px;
+}
+.bawah-kiri{
+    display: flex;
+    align-items: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <fieldset class="atas">
+        <img src="kotak.png" alt="" style="width: 20px; height: 20px">
+        <h4>Market</h4>
+        <ul>
+            <a href="www.google.com">Category 1 |</a>
+            <a href="www.facebook.com">Category 2 |</a>
+            <a href="www.gmail.com">Category 3</a>
+        </ul>
+        <div style="margin-left: 90px;">
+            <img src="cari.png" alt="" style="width: 20px; height: 20px">
+            <img src="keranjang.png" alt="" style="width: 20px; height: 20px">
+
+        </div>
+           
+            <h5 style="margin-left: 10px;">keranjang (1)</h5>
+    </fieldset>
+    <!--Bagian Dalam-->
+    <fieldset class="dalam">
+        <div class="gabungan">
+            <div class="kiri">
+                <div style="align-items: center; display: flex;">
+                    <img src="ceklis.png" alt="" height="42px" width="42px">
+                    <p style="font-size: 14px;">Orde 6912334
+                        <br><b>Thank You, Fathan !</b>
+                    </p>
+            </div>
+      
+        <div class="bagian2">
+            <p style="font-size: 12px;">Your order is confirmed</p>
+            <p style="font-size: 12px;"> We've accept your order and we're getting it ready</p>
+        </div>
+        <h4>Customer Information</h4>
+        <div class="info">
+                  
+            <div class="bagian-kanan">
+                <div class="kanan">
+                    <b> Shipping Address </b><br> <b>Faatih Fathan </b><br> <p style="margin-top: 1px; color: blue; width: 100px;">Lenteng Agung Jakarta Selatan Indonesia </p>
+                    
+                </div>
+            </div>
+            <div class="Bagian-kiri" style="margin-left: 20px;"> 
+                <!--Bagian Kiri-->
+                <div class="kiri" style="font-size: 13px;">
+                    <b> Billing Address </b><br> <b> Kenny S </b><br> <p style="margin-top: 1px; color: blue; width: 100px;"> Depok, Jawabarat Indonesia </p>
+                </div>
+            </div>
+            </div>
+            
+            <div class="metode" > 
+                <div class="metode-1" >
+                    <p><b>Shipping Method</b> <br> JNT Express </p>
+                </div>
+                <div class="metode-2">
+                    <p><b>Payment Method</b> <br> Shopee pay, Ovo </p>
+                </div>
+                </div>
+            </div>
+            <!--bagian kanan-->
+                
+          <div class="kanan">
+            <div style="padding: 20px; width: 195px; height: 180px; background-color: grey; margin-left: 30px; margin-top: -100px;">
+              <div style="padding: 10px; margin-top: -20px">
+                <h5>Summary (1 barang)</h5>
+                <table style="font-size: 13px">
+                  <th>Subtotal</th>
+                  <th style="padding-left: 60px">Rp 85.000</th>
+                </table>
+                <table style="font-size: 13px">
+                  <th>Shipping</th>
+                  <th style="padding-left: 63px;">Rp 5.000</th>
+                </table>
+                <table style="font-size: 13px">
+                  <th>Pajak</th>
+                  <th style="padding-left: 80px;">Rp 8.500</th>
+                </table>
+                
+                <table style="font-size: 13px; border-top: 2px solid rgb(255, 250, 244)">
+                  <th>Subtotal</th>
+                  <th style="padding-left: 60px">Rp 98.500</th>
+                </table>
+                <input type="text" style= "width:100px; padding: 0px 40px; " >
+                <form action="cart.html" style="padding: 0px 60px ">
+                 
+                  <input type="submit" value="Checkout" />
+             
+                </form>
+              </div>
+            </div>
+        </div>
+    </div>
+    </fieldset>
+       <!-- Bagian bawah-->
+
+<fieldset class="bawah">
+    <div style="display: flex; align-items: center;">
+    <div style="display: flex; align-items: center;">
+        <h5>Site Name</h5>
+        <ul style="font-size: 13px; font-family: 'Times New Roman', Times, serif;" >
+        <a href="" style="margin: 3">Category A|</a
+        >|
+        <a href="" style="margin: 3">Category B|</a
+        >|
+        <a href="" style="margin: 3">Category C</a>
+      </ul>
+    </div>
+    <div class="bawah-kanan">
+        <p>Daftar Sekarang Juga</p>
+    </div>
+    </div>
+<div class="bawah-kiri">
+    <div style="padding-left: 1px;">
+    <img src="bca.png" width="14px" height="14px" >
+    <img src="visa.png" width="14px" height="14px">
+    <img src="bri.png" width="14px" height="14px">
+</div>
+<form action="" style="font-size:10px; margin-left: 270px;" >
+    <input type="text" value="Enter Email"> 
+    <input type="submit" value="subscribe">
+</form>
+</div>
+</fieldset>
+</body>
+</html>
