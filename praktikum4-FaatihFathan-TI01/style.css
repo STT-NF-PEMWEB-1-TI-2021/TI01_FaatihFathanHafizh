@@ -1,0 +1,49 @@
+
+*{
+   font-family: sans-serif Arial, Helvetica, sans-serif;
+
+}
+.latar{
+   width: 600px;
+}
+
+.bagian1{
+  display: flex;
+
+   
+}
+.profile{
+   margin-left: 25px;
+   margin-top: -25px;
+}
+.category{
+   margin-left: 70px;
+   margin-top: -10px;
+   
+}
+
+.bagian2{
+   width: 650px;
+   margin-top: 30px ;
+   margin-bottom: 50px;
+  
+}
+.isi{
+   margin: 50px 15px;
+}
+.bagian3{
+   display: flex;
+}
+.gambar{
+   width: 170px;
+   height: 140px;
+   margin-left: 21px;
+   border-bottom: 1px solid black;
+}
+.data{
+margin-left: 20px;
+margin-top: -10px;
+}
+ 
+
+
