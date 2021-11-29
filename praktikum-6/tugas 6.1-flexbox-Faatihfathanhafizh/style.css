@@ -1,0 +1,23 @@
+#container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 220px;
+    width: 700px;
+    background-color: aqua; 
+}
+.box{
+    background-color: rgb(184, 177, 177);
+    width: 350px;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.atas{
+    width: 200px;
+}
+.box4{
+    width: 120px;
+}

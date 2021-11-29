@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(253, 190, 200);
+    
+}
+#main{
+    display: flex;
+    margin-left: 85px;
+}
+#content{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 25px;
+}
+#main>aside{
+    background-color: #217079;
+    width: 40vh;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    padding: 170px 45px 75px 125px;
+}
+#main>article{
+    background-color: rgb(230, 15, 104);
+    width: 105vh;
+    margin: 14px;
+    height: 60vh;
+
+}
+header, footer{
+    margin-left: 75px;
+    background-color: rgb(46, 187, 65);
+    padding: 12px;
+    width: 149vh;
+    height: 9vh;
+}
+#isi{
+    flex-wrap: wrap-reverse;
+    
+}
+.foto{
+    border-style: 1px solid;
+    width: 200px;
+    margin: 15px;
+   
+}
