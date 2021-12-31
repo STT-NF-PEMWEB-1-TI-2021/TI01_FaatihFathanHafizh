@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+</head>
+<body>
+<fieldset>
+    <b><label for="beach">Beach</label></b>
+    <select id="beach">
+        <option value="bali">Bali island</option>
+        <option value="bora">Bora island</option>
+        <option value="maldives">Maldives island</option>
+       
+       
+
+    </select>
+    <button onclick="cetakGambar()">Lihat Gambar</button>
+    <br><br><img id="gambar" src="">
+</fieldset>
+<script>
+    function cetakGambar() {
+        const beachj = document.getElementById('beach');
+        const gambar = document.getElementById('gambar');
+    
+        if (beach.value === 'bali') {
+            gambar.src = "https://theculturetrip.com/wp-content/uploads/2018/03/telunas-private-island-spa-aerial.jpg"
+        }
+        if (beach.value === 'bora') {
+            gambar.src = 'https://q-xx.bstatic.com/xdata/images/hotel/840x460/327275271.jpg?k=d422591138f6f59042c22ee4419b24922c4e79d1831aa060c43d9fef425284ae&o='
+        }
+        if (beach.value === 'maldives') {
+            gambar.src = 'https://pix10.agoda.net/hotelImages/5750598/-1/a5efdca085d406eb617aa48fd208ea3e.jpg?ca=9&ce=1&s=1024x768'
+        }
+       
+    }
+</script>
+</body>
+</html>

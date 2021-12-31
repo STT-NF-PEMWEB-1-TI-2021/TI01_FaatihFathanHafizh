@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <title>Kurs dollar</title>
+
+    <style>
+
+
+    </style>
+  </head>
+  <body>
+    <br />
+    <h2>Dollar ke Rupiah (1 USD = Rp.14.340)</h2>
+    <br />
+    <div class="content">
+      Enter USD:
+      <input type="number" value="" id="nomor" />
+      <br /><br />
+      <button onclick="kursrp()">Enter</button> :
+      <span id="hasilkonversi"></span>
+    </div>
+
+    <h3>Dollar Singapura Ke rupiah (1 Dollar Singapura = 10.555)</h3>
+    <div class="ds">
+      Enter Dollar Singapura
+      <input type="number" value="" id="nomor"/>
+      <br>
+      <button onclick="kursrp()">Enter</button> :
+      <span id="hasilkonversi"></span>
+    </div>
+    
+    <script>
+      function kursrp() {
+        let datadolarsingapura = document.getElementById("nomor").value;
+        document.getElementById("hasilkonversi").innerHTML = "Rp. " + datadolarsingapura * 10555.0; 
+      
+      }
+    </script>
+
+
+
+    <script>
+      function kursrp() {
+        let datausd = document.getElementById("nomor").value;
+        document.getElementById("hasilkonversi").innerHTML = "Rp. " + datausd * 14340.0;
+      }
+    </script>
+
+
+
+  </body>
+</html>
